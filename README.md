@@ -43,8 +43,16 @@ print(lrparse.lr("abc", "", ""))
 # Output: ['abc']
 ```
 
+## Contributing
+
+Contributions are welcome! 😊  
+Whether it's fixing a bug, improving performance, adding examples, or suggesting new features — any help is appreciated.
+
+
+
 ## Shoutout
 The idea behind this project came from the *Parse Block* in [OpenBullet](https://github.com/openbullet/openbullet/) - a powerful tool for automating and analyzing HTTP requests.
 I always liked how fast and straightforward it handled text extraction, so I wanted to create a tiny standalone version for Python.  
 
 Big respect to the OpenBullet devs and community. 🙌
+
