@@ -21,3 +21,24 @@ lrparse is a tiny, fast Python library written in C for extracting substrings be
 pip install lrparse
 ```
 
+## Usage
+
+```python
+import lrparse
+
+# lr() → first match between delimiters
+print(lrparse.lr("pre[mid]post", "[", "]"))
+# Output: ['mid']
+
+# lrr() → all matches between delimiters
+print(lrparse.lrr("<a><b>c", "<", ">"))
+# Output: ['a', 'b']
+
+# If delimiters don't exist → returns an empty list
+print(lrparse.lr("hello world", "{", "}"))
+# Output: []
+
+# If both delimiters are empty → returns the whole string
+print(lrparse.lr("abc", "", ""))
+# Output: ['abc']
+```
