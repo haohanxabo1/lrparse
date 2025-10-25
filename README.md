@@ -4,6 +4,7 @@
 
 [![PyPI-version](https://img.shields.io/pypi/v/lrparse.svg)](https://pypi.org/project/lrparse/)
 [![View on GitHub](https://img.shields.io/badge/GitHub-view-brightgreen?logo=github)](https://github.com/haohanxabo1/lrparse)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 lrparse is a tiny, fast Python library written in C for extracting substrings between left and right delimiters.
 
