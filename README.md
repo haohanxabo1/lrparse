@@ -41,7 +41,7 @@ print(lrparse.lr("hello world", "{", "}"))
 
 # If both delimiters are empty → returns the whole string
 print(lrparse.lr("abc", "", ""))
-# Output: ['abc']
+# Output: ['abc'] 
 ```
 
 ## Contributing
